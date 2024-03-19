@@ -1,0 +1,7 @@
+body{
+    background-image: url("{{ asset('/Record.webp')}}");
+
+}
+h1{
+    color: brown;
+}

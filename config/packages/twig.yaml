@@ -1,0 +1,11 @@
+twig:
+    form_themes: ['bootstrap_5_horizontal_layout.html.twig']
+    default_path: '%kernel.project_dir%/templates'
+    paths:
+        '%kernel.project_dir%/assets': images
+        '%kernel.project_dir%/assets/styles': css
+
+
+when@test:
+    twig:
+        strict_variables: true

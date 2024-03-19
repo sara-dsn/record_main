@@ -1,0 +1,11 @@
+{% apply inline_css(source('@css/app.css')) %}
+<style>
+h1{
+    color:darksalmon;
+}
+</style>
+<h1> Utilisateur : {{ data.utilisateur }}!</h1><br>
+<p>  email : </p><p><code>{{ data.mail }}</code></p>
+<p>{{data.sujet}} : <br> {{ data.message}}</p>
+
+{% endapply %}
